@@ -1,18 +1,18 @@
 import random
 
 zahl = random.randint(1,100)
-versuche = 5
-nachrticht = ''
+versuche = 10
+nachricht = ''
 print('''Hey du, Willst du ein cooles Spiel mit mir Spielen?
 Ich denke mir eine Zahl zwischen 1-100 aus und du muss sie schätzen.
-Du hast nur 5 Versuche.
+Du hast nur 10 Versuche.
 Lass uns anfangen! (⌐■_■)''')
 while versuche > 0:
 
   schaetzen = int(input('Gib deine Zahl ein:'))
   if schaetzen == zahl:
-   nachrticht = '''
-Wow! Genau das ist es!! Du hast das Spiel gewonnen und somit unseren Repsekt. ༼ ▀̿̿Ĺ̯̿̿▀̿ ༼▀̿̿Ĺ̯̿̿▀̿༽▀̿̿Ĺ̯̿̿▀̿ ༽
+   nachricht = '''
+Wow! Genau das ist es!! Du hast das Spiel gewonnen und somit unseren Repsekt verdient. ༼ ▀̿̿Ĺ̯̿̿▀̿ ༼▀̿̿Ĺ̯̿̿▀̿༽▀̿̿Ĺ̯̿̿▀̿ ༽
    '''
    break
 
@@ -30,4 +30,4 @@ Wow! Genau das ist es!! Du hast das Spiel gewonnen und somit unseren Repsekt. �
     print('Hopla etwas ist schiefgelaufen. Bitte Starten Sie das Program neu.')
     break
 
-print(nachrticht)
+print(nachricht)
